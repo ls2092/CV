@@ -30,8 +30,9 @@ This project is designed to run in a Google Colab environment connected to Googl
 **1. Dependencies**
 The tabular regression models rely on standard scientific Python libraries. The image classification model requires deep learning libraries:
 
-**Task Type:** Regression
-**Key Libraries:** pandas, numpy, scikit-learn, xgboost, matplotlib
+**2. Task Type:** Regression
+
+**3. Key Libraries:** pandas, numpy, scikit-learn, xgboost, matplotlib
 
 **2. Google Drive Connection**
 Before running any modeling cells, you must execute the initial setup cell in the Colab notebook to mount your Google Drive:
