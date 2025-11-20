@@ -9,12 +9,19 @@ Additionally, it includes an Image Classification Model (CNN) using transfer lea
 
 **Data Sources**
 The models are trained using a dataset organized into the following components:
+
 **Tabular Data** (/content/drive/MyDrive/DMML DATA/tables_V2.0/):
+
 **Adv_table.csv:** Contains car advertisement data, including mileage, engine size, body type, fuel type, and the target variable: 'Price' (Resale Price).
+
 **Price_table.csv:** Contains MSRP data ('Entry_price') used for feature enrichment.
+
 **Basic_table.csv:** Used by the CNN to source the 'Automaker' label.
+
 **Image_table.csv:** Links 'Adv_ID' to image file names and viewpoint data.
+
 **Image Data** (/content/drive/MyDrive/DMML DATA/DVM_images/):
+
 A root folder containing car images used for the classification tasks.For regression tasks, we mainly use 'Adv_table' and 'Price_table'
 
 **Prerequisites & Setup**
