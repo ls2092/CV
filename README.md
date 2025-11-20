@@ -35,6 +35,7 @@ The tabular regression models rely on standard scientific Python libraries. The 
 **Key Libraries:** pandas, numpy, scikit-learn, xgboost, matplotlib
 
 **2. Google Drive Connection**
+
 Before running any modeling cells, you must execute the initial setup cell in the Colab notebook to mount your Google Drive:
 
 from google.colab import drive
